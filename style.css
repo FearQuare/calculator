@@ -1,0 +1,103 @@
+body {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    background-image: url("images/yae-miko-electro-profile-genshin-impact-1.webp");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.calculator {
+    width: 500px;
+    height: 80%;
+    background-color: #F0E6EF;
+    border-radius: 25px;
+    flex-shrink: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    width: 95%;
+    height: 150px;
+    background-color: #B8BEDD;
+    border-radius: 25px 25px 0 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.initial-value {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.calculator-body {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    display: flex;
+    gap: 13px;
+    height: 19%;
+    width: 94%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.row1 button {
+    background-color: #9C89B8;
+    border-radius: 25px;
+    border-style: none;
+    margin-top: 25px;
+    flex-shrink: 1;
+    width: 25%;
+    color: white;
+}
+
+.row1 .divide-button {
+    background-color: #F0A6CA;
+}
+
+button {
+    background-color: #EFC3E6;
+    border-radius: 25px;
+    border-style: none;
+    margin-top: 25px;
+    flex-shrink: 1;
+    width: 25%;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+.multiply,
+.minus,
+.plus,
+.equals {
+    background-color: #F0A6CA;
+}
+
+.zero {
+    flex-grow: 2;
+}
