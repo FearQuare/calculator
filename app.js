@@ -162,3 +162,9 @@ minusButton.addEventListener('click', () => {
     initialValue.textContent = 0;
     operation = "-";
 });
+
+plusButton.addEventListener('click', () => {
+    prevValue = initialValue.textContent;
+    initialValue.textContent = 0;
+    operation = "+";
+});
